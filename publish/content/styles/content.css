@@ -47,6 +47,7 @@ common elements
 }
 /* toggle information list
 ============================================================*/
+/*
 .tgl-info-row + .tgl-info-row {
     padding-top: 2rem;
 }
@@ -72,6 +73,7 @@ common elements
         font-size: 1.35rem;
     }
 }
+*/ /* 210714 sunny */
 /* form elements
 ============================================================*/
 .form-row {
