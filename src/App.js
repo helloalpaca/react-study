@@ -1,22 +1,21 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import "./App.css";
 import "./styles/slick.css";
 import "./styles/style.css";
 import "./styles/content.css";
-import "./styles/bootstrap.css";
 
-import Navbar from "./components/Navbar";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+import Main from "./domain/Main/index";
+import Policy from "./domain/Policy/index";
+
 class App extends Component {
   render() {
     return (
-      <div >
-          <Navbar />
-          <Content />
-          <Footer />
-      </div>
+      <Router>
+        <Route exact path="/" component={Main} />
+        <Route path="/policy" component={Policy} />
+      </Router>
     );
   }
 }
