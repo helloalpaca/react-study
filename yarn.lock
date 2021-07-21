@@ -2217,13 +2217,6 @@
     "mime-types" "~2.1.24"
     "negotiator" "0.6.2"
 
-"acorn-dynamic-import@^2.0.0":
-  "integrity" "sha1-x1K9IQvvZ5UBtsbLf8hPj0cVjMQ="
-  "resolved" "https://registry.npmjs.org/acorn-dynamic-import/-/acorn-dynamic-import-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "acorn" "^4.0.3"
-
 "acorn-globals@^6.0.0":
   "integrity" "sha512-ZQl7LOWaF5ePqqcX4hLuv/bLXYQNfNWw2c0/yX/TsPRKamzHcTGQnlCjHT3TsmkOUVEPS3crCxiPfdzE/Trlhg=="
   "resolved" "https://registry.npmjs.org/acorn-globals/-/acorn-globals-6.0.0.tgz"
@@ -2241,16 +2234,6 @@
   "integrity" "sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA=="
   "resolved" "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz"
   "version" "7.2.0"
-
-"acorn@^4.0.3":
-  "integrity" "sha1-EFSVrlNh1pe9GVyCUZLhrX8lN4c="
-  "resolved" "https://registry.npmjs.org/acorn/-/acorn-4.0.13.tgz"
-  "version" "4.0.13"
-
-"acorn@^5.0.0":
-  "integrity" "sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg=="
-  "resolved" "https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz"
-  "version" "5.7.4"
 
 "acorn@^6.0.0 || ^7.0.0 || ^8.0.0", "acorn@^7.4.0":
   "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A=="
@@ -2310,17 +2293,12 @@
   "resolved" "https://registry.npmjs.org/ajv-errors/-/ajv-errors-1.0.1.tgz"
   "version" "1.0.1"
 
-"ajv-keywords@^2.0.0":
-  "integrity" "sha1-YXmX/F9gV2iUxDX5QNgZ4TW4B2I="
-  "resolved" "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-2.1.1.tgz"
-  "version" "2.1.1"
-
 "ajv-keywords@^3.1.0", "ajv-keywords@^3.4.1", "ajv-keywords@^3.5.2":
   "integrity" "sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ=="
   "resolved" "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz"
   "version" "3.5.2"
 
-"ajv@^5.0.0", "ajv@^5.1.5", "ajv@>=5.0.0":
+"ajv@^5.0.0", "ajv@>=5.0.0":
   "integrity" "sha1-c7Xuyj+rZT49P5Qis0GtQiBdyWU="
   "resolved" "https://registry.npmjs.org/ajv/-/ajv-5.5.2.tgz"
   "version" "5.5.2"
@@ -2360,15 +2338,6 @@
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
 
-"align-text@^0.1.1", "align-text@^0.1.3":
-  "integrity" "sha1-DNkKVhCT810KmSVsIrcGlDP60Rc="
-  "resolved" "https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz"
-  "version" "0.1.4"
-  dependencies:
-    "kind-of" "^3.0.2"
-    "longest" "^1.0.1"
-    "repeat-string" "^1.5.2"
-
 "alphanum-sort@^1.0.0":
   "integrity" "sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM="
   "resolved" "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
@@ -2400,11 +2369,6 @@
   "integrity" "sha1-w7M6te42DYbg5ijwRorn7yfWVN8="
   "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz"
   "version" "2.1.1"
-
-"ansi-regex@^3.0.0":
-  "integrity" "sha1-7QMXwyIGT3lGbAKWa922Bas32Zg="
-  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.0.tgz"
-  "version" "3.0.0"
 
 "ansi-regex@^4.1.0":
   "integrity" "sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg=="
@@ -2608,7 +2572,7 @@
   "resolved" "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.1.tgz"
   "version" "1.0.1"
 
-"async@^2.1.2", "async@^2.6.2":
+"async@^2.6.2":
   "integrity" "sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg=="
   "resolved" "https://registry.npmjs.org/async/-/async-2.6.3.tgz"
   "version" "2.6.3"
@@ -3237,16 +3201,6 @@
     "pascal-case" "^3.1.2"
     "tslib" "^2.0.3"
 
-"camelcase@^1.0.2":
-  "integrity" "sha1-m7UwTS4LVmmLLHWLCKPqqdqlijk="
-  "resolved" "https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz"
-  "version" "1.2.1"
-
-"camelcase@^4.1.0":
-  "integrity" "sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0="
-  "resolved" "https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz"
-  "version" "4.1.0"
-
 "camelcase@^5.0.0":
   "integrity" "sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg=="
   "resolved" "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz"
@@ -3293,14 +3247,6 @@
   "integrity" "sha512-/4YgnZS8y1UXXmC02xD5rRrBEu6T5ub+mQHLNRj0fzTRbgdBYhsNo2V5EqwgqrExjxsjtF/OpAKAMkKsxbD5XQ=="
   "resolved" "https://registry.npmjs.org/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.3.0.tgz"
   "version" "2.3.0"
-
-"center-align@^0.1.1":
-  "integrity" "sha1-qg0yYptu6XIgBBHL1EYckHvCt60="
-  "resolved" "https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz"
-  "version" "0.1.3"
-  dependencies:
-    "align-text" "^0.1.3"
-    "lazy-cache" "^1.0.3"
 
 "chalk@^2.0.0":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
@@ -3461,24 +3407,6 @@
   "resolved" "https://registry.npmjs.org/clean-stack/-/clean-stack-2.2.0.tgz"
   "version" "2.2.0"
 
-"cliui@^2.1.0":
-  "integrity" "sha1-S0dXYP+AJkx2LDoXGQMukcf+oNE="
-  "resolved" "https://registry.npmjs.org/cliui/-/cliui-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "center-align" "^0.1.1"
-    "right-align" "^0.1.1"
-    "wordwrap" "0.0.2"
-
-"cliui@^3.2.0":
-  "integrity" "sha1-EgYBU3qRbSmUD5NNo7SNWFo5IT0="
-  "resolved" "https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz"
-  "version" "3.2.0"
-  dependencies:
-    "string-width" "^1.0.1"
-    "strip-ansi" "^3.0.1"
-    "wrap-ansi" "^2.0.0"
-
 "cliui@^5.0.0":
   "integrity" "sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA=="
   "resolved" "https://registry.npmjs.org/cliui/-/cliui-5.0.0.tgz"
@@ -3510,11 +3438,6 @@
     "@types/q" "^1.5.1"
     "chalk" "^2.4.1"
     "q" "^1.1.2"
-
-"code-point-at@^1.0.0":
-  "integrity" "sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c="
-  "resolved" "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz"
-  "version" "1.1.0"
 
 "collect-v8-coverage@^1.0.0":
   "integrity" "sha512-iBPtljfCNcTKNAto0KEtDfZ3qzjJvqE3aTGZsbhjSBlorqpXJlaWWtPO35D+ZImoC3KWejX64o+yPGxhWSTzfg=="
@@ -3816,15 +3739,6 @@
     "ripemd160" "^2.0.0"
     "safe-buffer" "^5.0.1"
     "sha.js" "^2.4.8"
-
-"cross-spawn@^5.0.1":
-  "integrity" "sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk="
-  "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz"
-  "version" "5.1.0"
-  dependencies:
-    "lru-cache" "^4.0.1"
-    "shebang-command" "^1.2.0"
-    "which" "^1.2.9"
 
 "cross-spawn@^6.0.0":
   "integrity" "sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ=="
@@ -4205,7 +4119,7 @@
   dependencies:
     "ms" "2.1.2"
 
-"decamelize@^1.0.0", "decamelize@^1.1.1", "decamelize@^1.2.0":
+"decamelize@^1.2.0":
   "integrity" "sha1-9lNNFRSCabIDUue+4m9QH5oZEpA="
   "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
   "version" "1.2.0"
@@ -4587,16 +4501,6 @@
   dependencies:
     "once" "^1.4.0"
 
-"enhanced-resolve@^3.4.0":
-  "integrity" "sha1-BCHjOf1xQZs9oT0Smzl5BAIwR24="
-  "resolved" "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-3.4.1.tgz"
-  "version" "3.4.1"
-  dependencies:
-    "graceful-fs" "^4.1.2"
-    "memory-fs" "^0.4.0"
-    "object-assign" "^4.0.1"
-    "tapable" "^0.2.7"
-
 "enhanced-resolve@^4.3.0":
   "integrity" "sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg=="
   "resolved" "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-4.5.0.tgz"
@@ -4625,7 +4529,7 @@
   dependencies:
     "prr" "~1.0.1"
 
-"error-ex@^1.2.0", "error-ex@^1.3.1":
+"error-ex@^1.3.1":
   "integrity" "sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g=="
   "resolved" "https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz"
   "version" "1.3.2"
@@ -4670,7 +4574,7 @@
     "is-date-object" "^1.0.1"
     "is-symbol" "^1.0.2"
 
-"es5-ext@^0.10.35", "es5-ext@^0.10.46", "es5-ext@^0.10.50", "es5-ext@~0.10.14":
+"es5-ext@^0.10.35", "es5-ext@^0.10.50":
   "integrity" "sha512-Xs2Stw6NiNHWypzRTY1MtaG/uJlwCk8kH81920ma8mvN8Xq1gsfhZvpkImLQArw8AHnv8MT2I45J3c0R8slE+Q=="
   "resolved" "https://registry.npmjs.org/es5-ext/-/es5-ext-0.10.53.tgz"
   "version" "0.10.53"
@@ -4679,7 +4583,7 @@
     "es6-symbol" "~3.1.3"
     "next-tick" "~1.0.0"
 
-"es6-iterator@^2.0.3", "es6-iterator@~2.0.1", "es6-iterator@~2.0.3", "es6-iterator@2.0.3":
+"es6-iterator@~2.0.3", "es6-iterator@2.0.3":
   "integrity" "sha1-p96IkUGgWpSwhUQDstCg+/qY87c="
   "resolved" "https://registry.npmjs.org/es6-iterator/-/es6-iterator-2.0.3.tgz"
   "version" "2.0.3"
@@ -4688,54 +4592,13 @@
     "es5-ext" "^0.10.35"
     "es6-symbol" "^3.1.1"
 
-"es6-map@^0.1.3":
-  "integrity" "sha1-kTbgUD3MBqMBaQ8LsU/042TpSfA="
-  "resolved" "https://registry.npmjs.org/es6-map/-/es6-map-0.1.5.tgz"
-  "version" "0.1.5"
-  dependencies:
-    "d" "1"
-    "es5-ext" "~0.10.14"
-    "es6-iterator" "~2.0.1"
-    "es6-set" "~0.1.5"
-    "es6-symbol" "~3.1.1"
-    "event-emitter" "~0.3.5"
-
-"es6-set@~0.1.5":
-  "integrity" "sha1-0rPsXU2ADO2BjbU40ol02wpzzLE="
-  "resolved" "https://registry.npmjs.org/es6-set/-/es6-set-0.1.5.tgz"
-  "version" "0.1.5"
-  dependencies:
-    "d" "1"
-    "es5-ext" "~0.10.14"
-    "es6-iterator" "~2.0.1"
-    "es6-symbol" "3.1.1"
-    "event-emitter" "~0.3.5"
-
-"es6-symbol@^3.1.1", "es6-symbol@~3.1.1", "es6-symbol@~3.1.3":
+"es6-symbol@^3.1.1", "es6-symbol@~3.1.3":
   "integrity" "sha512-NJ6Yn3FuDinBaBRWl/q5X/s4koRHBrgKAu+yGI6JCBeiu3qrcbJhwT2GeR/EXVfylRk8dpQVJoLEFhK+Mu31NA=="
   "resolved" "https://registry.npmjs.org/es6-symbol/-/es6-symbol-3.1.3.tgz"
   "version" "3.1.3"
   dependencies:
     "d" "^1.0.1"
     "ext" "^1.1.2"
-
-"es6-symbol@3.1.1":
-  "integrity" "sha1-vwDvT9q2uhtG7Le2KbTH7VcVzHc="
-  "resolved" "https://registry.npmjs.org/es6-symbol/-/es6-symbol-3.1.1.tgz"
-  "version" "3.1.1"
-  dependencies:
-    "d" "1"
-    "es5-ext" "~0.10.14"
-
-"es6-weak-map@^2.0.1":
-  "integrity" "sha512-p5um32HOTO1kP+w7PRnB+5lQ43Z6muuMuIMffvDN8ZB4GcnjLBV6zGStpbASIMk4DCAvEaamhe2zhyCb/QXXsA=="
-  "resolved" "https://registry.npmjs.org/es6-weak-map/-/es6-weak-map-2.0.3.tgz"
-  "version" "2.0.3"
-  dependencies:
-    "d" "1"
-    "es5-ext" "^0.10.46"
-    "es6-iterator" "^2.0.3"
-    "es6-symbol" "^3.1.1"
 
 "escalade@^3.0.2", "escalade@^3.1.1":
   "integrity" "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw=="
@@ -4778,16 +4641,6 @@
     "optionator" "^0.8.1"
   optionalDependencies:
     "source-map" "~0.6.1"
-
-"escope@^3.6.0":
-  "integrity" "sha1-4Bl16BJ4GhY6ba392AOY3GTIicM="
-  "resolved" "https://registry.npmjs.org/escope/-/escope-3.6.0.tgz"
-  "version" "3.6.0"
-  dependencies:
-    "es6-map" "^0.1.3"
-    "es6-weak-map" "^2.0.1"
-    "esrecurse" "^4.1.0"
-    "estraverse" "^4.1.1"
 
 "eslint-config-react-app@^6.0.0":
   "integrity" "sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A=="
@@ -5073,14 +4926,6 @@
   "resolved" "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
   "version" "1.8.1"
 
-"event-emitter@~0.3.5":
-  "integrity" "sha1-34xp7vFkeSPHFXuc6DhAYQsCzDk="
-  "resolved" "https://registry.npmjs.org/event-emitter/-/event-emitter-0.3.5.tgz"
-  "version" "0.3.5"
-  dependencies:
-    "d" "1"
-    "es5-ext" "~0.10.14"
-
 "eventemitter3@^4.0.0":
   "integrity" "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw=="
   "resolved" "https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz"
@@ -5110,19 +4955,6 @@
   "integrity" "sha512-nQn+hI3yp+oD0huYhKwvYI32+JFeq+XkNcD1GAo3Y/MjxsfVGmrrzrnzjWiNY6f+pUCP440fThsFh5gZrRAU/w=="
   "resolved" "https://registry.npmjs.org/exec-sh/-/exec-sh-0.3.6.tgz"
   "version" "0.3.6"
-
-"execa@^0.7.0":
-  "integrity" "sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c="
-  "resolved" "https://registry.npmjs.org/execa/-/execa-0.7.0.tgz"
-  "version" "0.7.0"
-  dependencies:
-    "cross-spawn" "^5.0.1"
-    "get-stream" "^3.0.0"
-    "is-stream" "^1.1.0"
-    "npm-run-path" "^2.0.0"
-    "p-finally" "^1.0.0"
-    "signal-exit" "^3.0.0"
-    "strip-eof" "^1.0.0"
 
 "execa@^1.0.0":
   "integrity" "sha512-adbxcyWV46qiHyvSp50TKt05tB4tK3HcmF7/nxfAdhnox83seTDbwnaqKO4sXRy7roHAIFqJP/Rw/AuEbX61LA=="
@@ -5599,11 +5431,6 @@
   "resolved" "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz"
   "version" "1.0.0-beta.2"
 
-"get-caller-file@^1.0.1":
-  "integrity" "sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w=="
-  "resolved" "https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz"
-  "version" "1.0.3"
-
 "get-caller-file@^2.0.1":
   "integrity" "sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg=="
   "resolved" "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz"
@@ -5627,11 +5454,6 @@
   "integrity" "sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q=="
   "resolved" "https://registry.npmjs.org/get-package-type/-/get-package-type-0.1.0.tgz"
   "version" "0.1.0"
-
-"get-stream@^3.0.0":
-  "integrity" "sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ="
-  "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
-  "version" "3.0.0"
 
 "get-stream@^4.0.0":
   "integrity" "sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w=="
@@ -5781,11 +5603,6 @@
   "integrity" "sha512-LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA=="
   "resolved" "https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.1.tgz"
   "version" "1.0.1"
-
-"has-flag@^2.0.0":
-  "integrity" "sha1-6CB68cx7MNRGzHC3NLXovhj4jVE="
-  "resolved" "https://registry.npmjs.org/has-flag/-/has-flag-2.0.0.tgz"
-  "version" "2.0.0"
 
 "has-flag@^3.0.0":
   "integrity" "sha1-tdRU3CGZriJWmfNGfloH87lVuv0="
@@ -6221,16 +6038,6 @@
     "has" "^1.0.3"
     "side-channel" "^1.0.4"
 
-"interpret@^1.0.0":
-  "integrity" "sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA=="
-  "resolved" "https://registry.npmjs.org/interpret/-/interpret-1.4.0.tgz"
-  "version" "1.4.0"
-
-"invert-kv@^1.0.0":
-  "integrity" "sha1-EEqOSqym09jNFXqO+L+rLXo//bY="
-  "resolved" "https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz"
-  "version" "1.0.0"
-
 "ip-regex@^2.1.0":
   "integrity" "sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk="
   "resolved" "https://registry.npmjs.org/ip-regex/-/ip-regex-2.1.0.tgz"
@@ -6421,13 +6228,6 @@
   "integrity" "sha1-qIwCU1eR8C7TfHahueqXc8gz+MI="
   "resolved" "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz"
   "version" "2.1.1"
-
-"is-fullwidth-code-point@^1.0.0":
-  "integrity" "sha1-754xOG8DGn8NZDr4L95QxFfvAMs="
-  "resolved" "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "number-is-nan" "^1.0.0"
 
 "is-fullwidth-code-point@^2.0.0":
   "integrity" "sha1-o7MKXE8ZkYMWeqq5O+764937ZU8="
@@ -7162,11 +6962,6 @@
   "resolved" "https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz"
   "version" "0.5.0"
 
-"json-loader@^0.5.4":
-  "integrity" "sha512-QLPs8Dj7lnf3e3QYS1zkCo+4ZwqOiF9d/nZnYozTISxXWCfNs9yuky5rJw4/W34s7POaNlbZmQGaB5NiXCbP4w=="
-  "resolved" "https://registry.npmjs.org/json-loader/-/json-loader-0.5.7.tgz"
-  "version" "0.5.7"
-
 "json-parse-better-errors@^1.0.1", "json-parse-better-errors@^1.0.2":
   "integrity" "sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw=="
   "resolved" "https://registry.npmjs.org/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz"
@@ -7201,11 +6996,6 @@
   "integrity" "sha512-c7/8mbUsKigAbLkD5B010BK4D9LZm7A1pNItkEwiUZRpIN66exu/e7YQWysGun+TRKaJp8MhemM+VkfWv42aCA=="
   "resolved" "https://registry.npmjs.org/json3/-/json3-3.3.3.tgz"
   "version" "3.3.3"
-
-"json5@^0.5.1":
-  "integrity" "sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE="
-  "resolved" "https://registry.npmjs.org/json5/-/json5-0.5.1.tgz"
-  "version" "0.5.1"
 
 "json5@^1.0.1":
   "integrity" "sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow=="
@@ -7311,18 +7101,6 @@
     "lodash" "^4.17.5"
     "webpack-sources" "^1.1.0"
 
-"lazy-cache@^1.0.3":
-  "integrity" "sha1-odePw6UEdMuAhF07O24dpJpEbo4="
-  "resolved" "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz"
-  "version" "1.0.4"
-
-"lcid@^1.0.0":
-  "integrity" "sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU="
-  "resolved" "https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "invert-kv" "^1.0.0"
-
 "leven@^3.1.0":
   "integrity" "sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A=="
   "resolved" "https://registry.npmjs.org/leven/-/leven-3.1.0.tgz"
@@ -7349,16 +7127,6 @@
   "resolved" "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz"
   "version" "1.1.6"
 
-"load-json-file@^2.0.0":
-  "integrity" "sha1-eUfkIUmvgNaWy/eXvKq8/h/inKg="
-  "resolved" "https://registry.npmjs.org/load-json-file/-/load-json-file-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "graceful-fs" "^4.1.2"
-    "parse-json" "^2.2.0"
-    "pify" "^2.0.0"
-    "strip-bom" "^3.0.0"
-
 "load-json-file@^4.0.0":
   "integrity" "sha1-L19Fq5HjMhYjT9U62rZo607AmTs="
   "resolved" "https://registry.npmjs.org/load-json-file/-/load-json-file-4.0.0.tgz"
@@ -7369,7 +7137,7 @@
     "pify" "^3.0.0"
     "strip-bom" "^3.0.0"
 
-"loader-runner@^2.3.0", "loader-runner@^2.4.0":
+"loader-runner@^2.4.0":
   "integrity" "sha512-Jsmr89RcXGIwivFY21FcRrisYZfvLMTWx5kOLc+JTxtpBOG6xML0vzbc6SEQG2FO9/4Fc3wW4LVcB5DmGflaRw=="
   "resolved" "https://registry.npmjs.org/loader-runner/-/loader-runner-2.4.0.tgz"
   "version" "2.4.0"
@@ -7493,11 +7261,6 @@
   "resolved" "https://registry.npmjs.org/loglevel/-/loglevel-1.7.1.tgz"
   "version" "1.7.1"
 
-"longest@^1.0.1":
-  "integrity" "sha1-MKCy2jj3N3DoKUoNIuZiXtd9AJc="
-  "resolved" "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz"
-  "version" "1.0.1"
-
 "loose-envify@^1.1.0", "loose-envify@^1.2.0", "loose-envify@^1.3.1", "loose-envify@^1.4.0":
   "integrity" "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
   "resolved" "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
@@ -7511,14 +7274,6 @@
   "version" "2.0.2"
   dependencies:
     "tslib" "^2.0.3"
-
-"lru-cache@^4.0.1":
-  "integrity" "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g=="
-  "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz"
-  "version" "4.1.5"
-  dependencies:
-    "pseudomap" "^1.0.2"
-    "yallist" "^2.1.2"
 
 "lru-cache@^5.1.1":
   "integrity" "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w=="
@@ -7611,14 +7366,7 @@
   "resolved" "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
-"mem@^1.1.0":
-  "integrity" "sha1-Xt1StIXKHZAP5kiVUFOZoN+kX3Y="
-  "resolved" "https://registry.npmjs.org/mem/-/mem-1.1.0.tgz"
-  "version" "1.1.0"
-  dependencies:
-    "mimic-fn" "^1.0.0"
-
-"memory-fs@^0.4.0", "memory-fs@^0.4.1", "memory-fs@~0.4.1":
+"memory-fs@^0.4.1":
   "integrity" "sha1-OpoguEYlI+RHz7x+i7gO1me/xVI="
   "resolved" "https://registry.npmjs.org/memory-fs/-/memory-fs-0.4.1.tgz"
   "version" "0.4.1"
@@ -7715,11 +7463,6 @@
   "integrity" "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg=="
   "resolved" "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz"
   "version" "1.6.0"
-
-"mimic-fn@^1.0.0":
-  "integrity" "sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ=="
-  "resolved" "https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz"
-  "version" "1.2.0"
 
 "mimic-fn@^2.1.0":
   "integrity" "sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg=="
@@ -7831,7 +7574,7 @@
     "for-in" "^1.0.2"
     "is-extendable" "^1.0.1"
 
-"mkdirp@^0.5.1", "mkdirp@^0.5.3", "mkdirp@^0.5.5", "mkdirp@~0.5.0", "mkdirp@~0.5.1":
+"mkdirp@^0.5.1", "mkdirp@^0.5.3", "mkdirp@^0.5.5", "mkdirp@~0.5.1":
   "integrity" "sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ=="
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz"
   "version" "0.5.5"
@@ -7970,7 +7713,7 @@
   "resolved" "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz"
   "version" "0.4.0"
 
-"node-libs-browser@^2.0.0", "node-libs-browser@^2.2.1":
+"node-libs-browser@^2.2.1":
   "integrity" "sha512-h/zcD8H9kaDZ9ALUWwlBUDo6TKF8a7qBSCSEGfjTVIYeqsioSKaAX+BN7NgiMGp6iSIXZ3PxgCu8KS3b71YK5Q=="
   "resolved" "https://registry.npmjs.org/node-libs-browser/-/node-libs-browser-2.2.1.tgz"
   "version" "2.2.1"
@@ -8095,11 +7838,6 @@
   "integrity" "sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4="
   "resolved" "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz"
   "version" "1.2.2"
-
-"number-is-nan@^1.0.0":
-  "integrity" "sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0="
-  "resolved" "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
-  "version" "1.0.1"
 
 "nwsapi@^2.2.0":
   "integrity" "sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ=="
@@ -8289,15 +8027,6 @@
   "resolved" "https://registry.npmjs.org/os-browserify/-/os-browserify-0.3.0.tgz"
   "version" "0.3.0"
 
-"os-locale@^2.0.0":
-  "integrity" "sha512-3sslG3zJbEYcaC4YVAvDorjGxc7tv6KVATnLPZONiljsUncvihe9BQoVCEs0RZ1kmf4Hk9OBqlZfJZWI4GanKA=="
-  "resolved" "https://registry.npmjs.org/os-locale/-/os-locale-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "execa" "^0.7.0"
-    "lcid" "^1.0.0"
-    "mem" "^1.1.0"
-
 "p-each-series@^2.1.0":
   "integrity" "sha512-ycIL2+1V32th+8scbpTvyHNaHe02z0sjgh91XXjAk+ZeXoPN4Z46DVUnzdso0aX4KckKw0FNNFHdjZ2UsZvxiA=="
   "resolved" "https://registry.npmjs.org/p-each-series/-/p-each-series-2.2.0.tgz"
@@ -8419,13 +8148,6 @@
     "pbkdf2" "^3.0.3"
     "safe-buffer" "^5.1.1"
 
-"parse-json@^2.2.0":
-  "integrity" "sha1-9ID0BDTvgHQfhGkJn43qGPVaTck="
-  "resolved" "https://registry.npmjs.org/parse-json/-/parse-json-2.2.0.tgz"
-  "version" "2.2.0"
-  dependencies:
-    "error-ex" "^1.2.0"
-
 "parse-json@^4.0.0":
   "integrity" "sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA="
   "resolved" "https://registry.npmjs.org/parse-json/-/parse-json-4.0.0.tgz"
@@ -8523,13 +8245,6 @@
   "integrity" "sha1-32BBeABfUi8V60SQ5yR6G/qmf4w="
   "resolved" "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz"
   "version" "0.1.7"
-
-"path-type@^2.0.0":
-  "integrity" "sha1-8BLMuEFbcJb8LaoQVMPXI4lZTHM="
-  "resolved" "https://registry.npmjs.org/path-type/-/path-type-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "pify" "^2.0.0"
 
 "path-type@^3.0.0":
   "integrity" "sha512-T2ZUsdZFHgA3u4e5PfPbjd7HDDpxPnQb5jN0SrDsjNSuVXHJqtwTnWqG0B1jZrgmJ/7lj1EmVIByWt1gxGkWvg=="
@@ -9422,11 +9137,6 @@
   "resolved" "https://registry.npmjs.org/prr/-/prr-1.0.1.tgz"
   "version" "1.0.1"
 
-"pseudomap@^1.0.2":
-  "integrity" "sha1-8FKijacOYYkX7wqKw0wa5aaChrM="
-  "resolved" "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
-  "version" "1.0.2"
-
 "psl@^1.1.33":
   "integrity" "sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ=="
   "resolved" "https://registry.npmjs.org/psl/-/psl-1.8.0.tgz"
@@ -9733,14 +9443,6 @@
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
 
-"read-pkg-up@^2.0.0":
-  "integrity" "sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4="
-  "resolved" "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "find-up" "^2.0.0"
-    "read-pkg" "^2.0.0"
-
 "read-pkg-up@^3.0.0":
   "integrity" "sha1-PtSWaF26D4/hGNBpHcUfSh/5bwc="
   "resolved" "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-3.0.0.tgz"
@@ -9757,15 +9459,6 @@
     "find-up" "^4.1.0"
     "read-pkg" "^5.2.0"
     "type-fest" "^0.8.1"
-
-"read-pkg@^2.0.0":
-  "integrity" "sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg="
-  "resolved" "https://registry.npmjs.org/read-pkg/-/read-pkg-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "load-json-file" "^2.0.0"
-    "normalize-package-data" "^2.3.2"
-    "path-type" "^2.0.0"
 
 "read-pkg@^3.0.0":
   "integrity" "sha1-nLxoaXj+5l0WwA4rGcI3/Pbjg4k="
@@ -9953,7 +9646,7 @@
   "resolved" "https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.4.tgz"
   "version" "1.1.4"
 
-"repeat-string@^1.5.2", "repeat-string@^1.6.1":
+"repeat-string@^1.6.1":
   "integrity" "sha1-jcrkcOHIirwtYA//Sndihtp15jc="
   "resolved" "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
   "version" "1.6.1"
@@ -9967,11 +9660,6 @@
   "integrity" "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw=="
   "resolved" "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   "version" "2.0.2"
-
-"require-main-filename@^1.0.1":
-  "integrity" "sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE="
-  "resolved" "https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz"
-  "version" "1.0.1"
 
 "require-main-filename@^2.0.0":
   "integrity" "sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg=="
@@ -10107,13 +9795,6 @@
   "integrity" "sha1-QzdOLiyglosO8VI0YLfXMP8i7rM="
   "resolved" "https://registry.npmjs.org/rgba-regex/-/rgba-regex-1.0.0.tgz"
   "version" "1.0.0"
-
-"right-align@^0.1.1":
-  "integrity" "sha1-YTObci/mo1FWiSENJOFMlhSGE+8="
-  "resolved" "https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz"
-  "version" "0.1.3"
-  dependencies:
-    "align-text" "^0.1.1"
 
 "rimraf@^2.5.4":
   "integrity" "sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w=="
@@ -10646,12 +10327,7 @@
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
 
-"source-map@^0.5.3":
-  "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
-  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
-  "version" "0.5.7"
-
-"source-map@^0.5.6", "source-map@~0.5.1":
+"source-map@^0.5.6":
   "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
@@ -10838,23 +10514,6 @@
   "resolved" "https://registry.npmjs.org/string-natural-compare/-/string-natural-compare-3.0.1.tgz"
   "version" "3.0.1"
 
-"string-width@^1.0.1":
-  "integrity" "sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M="
-  "resolved" "https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "code-point-at" "^1.0.0"
-    "is-fullwidth-code-point" "^1.0.0"
-    "strip-ansi" "^3.0.0"
-
-"string-width@^2.0.0":
-  "integrity" "sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw=="
-  "resolved" "https://registry.npmjs.org/string-width/-/string-width-2.1.1.tgz"
-  "version" "2.1.1"
-  dependencies:
-    "is-fullwidth-code-point" "^2.0.0"
-    "strip-ansi" "^4.0.0"
-
 "string-width@^3.0.0", "string-width@^3.1.0":
   "integrity" "sha512-vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w=="
   "resolved" "https://registry.npmjs.org/string-width/-/string-width-3.1.0.tgz"
@@ -10912,19 +10571,12 @@
     "is-obj" "^1.0.1"
     "is-regexp" "^1.0.0"
 
-"strip-ansi@^3.0.0", "strip-ansi@^3.0.1":
+"strip-ansi@^3.0.1":
   "integrity" "sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8="
   "resolved" "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz"
   "version" "3.0.1"
   dependencies:
     "ansi-regex" "^2.0.0"
-
-"strip-ansi@^4.0.0":
-  "integrity" "sha1-qEeQIusaw2iocTibY1JixQXuNo8="
-  "resolved" "https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "ansi-regex" "^3.0.0"
 
 "strip-ansi@^5.0.0":
   "integrity" "sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA=="
@@ -11018,13 +10670,6 @@
     "postcss" "^7.0.0"
     "postcss-selector-parser" "^3.0.0"
 
-"supports-color@^4.2.1":
-  "integrity" "sha1-vnoN5ITexcXN34s9WRJQRJEvY1s="
-  "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-4.5.0.tgz"
-  "version" "4.5.0"
-  dependencies:
-    "has-flag" "^2.0.0"
-
 "supports-color@^5.3.0":
   "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="
   "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz"
@@ -11095,11 +10740,6 @@
     "string-width" "^4.2.0"
     "strip-ansi" "^6.0.0"
 
-"tapable@^0.2.7":
-  "integrity" "sha512-2wsvQ+4GwBvLPLWsNfLCDYGsW6xb7aeC6utq2Qh0PFwgEy7K7dsma9Jsmb2zSQj7GvYAyUGSntLtsv++GmgL1A=="
-  "resolved" "https://registry.npmjs.org/tapable/-/tapable-0.2.9.tgz"
-  "version" "0.2.9"
-
 "tapable@^1.0.0", "tapable@^1.1.3":
   "integrity" "sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA=="
   "resolved" "https://registry.npmjs.org/tapable/-/tapable-1.1.3.tgz"
@@ -11169,16 +10809,7 @@
     "terser" "^5.3.4"
     "webpack-sources" "^1.4.3"
 
-"terser@^4.1.2":
-  "integrity" "sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw=="
-  "resolved" "https://registry.npmjs.org/terser/-/terser-4.8.0.tgz"
-  "version" "4.8.0"
-  dependencies:
-    "commander" "^2.20.0"
-    "source-map" "~0.6.1"
-    "source-map-support" "~0.5.12"
-
-"terser@^4.6.2", "terser@^4.6.3":
+"terser@^4.1.2", "terser@^4.6.2", "terser@^4.6.3":
   "integrity" "sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw=="
   "resolved" "https://registry.npmjs.org/terser/-/terser-4.8.0.tgz"
   "version" "4.8.0"
@@ -11442,30 +11073,6 @@
   "integrity" "sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.3.5.tgz"
   "version" "4.3.5"
-
-"uglify-js@^2.8.29":
-  "integrity" "sha1-KcVzMUgFe7Th913zW3qcty5qWd0="
-  "resolved" "https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz"
-  "version" "2.8.29"
-  dependencies:
-    "source-map" "~0.5.1"
-    "yargs" "~3.10.0"
-  optionalDependencies:
-    "uglify-to-browserify" "~1.0.0"
-
-"uglify-to-browserify@~1.0.0":
-  "integrity" "sha1-bgkk1r2mta/jSeOabWMoUKD4grc="
-  "resolved" "https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz"
-  "version" "1.0.2"
-
-"uglifyjs-webpack-plugin@^0.4.6":
-  "integrity" "sha1-uVH0q7a9YX5m9j64kUmOORdj4wk="
-  "resolved" "https://registry.npmjs.org/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-0.4.6.tgz"
-  "version" "0.4.6"
-  dependencies:
-    "source-map" "^0.5.6"
-    "uglify-js" "^2.8.29"
-    "webpack-sources" "^1.0.1"
 
 "unbox-primitive@^1.0.1":
   "integrity" "sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw=="
@@ -11753,7 +11360,7 @@
   dependencies:
     "chokidar" "^2.1.8"
 
-"watchpack@^1.4.0", "watchpack@^1.7.4":
+"watchpack@^1.7.4":
   "integrity" "sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ=="
   "resolved" "https://registry.npmjs.org/watchpack/-/watchpack-1.7.5.tgz"
   "version" "1.7.5"
@@ -11854,7 +11461,7 @@
     "object.entries" "^1.1.0"
     "tapable" "^1.0.0"
 
-"webpack-sources@^1.0.1", "webpack-sources@^1.1.0", "webpack-sources@^1.3.0", "webpack-sources@^1.4.0", "webpack-sources@^1.4.1", "webpack-sources@^1.4.3":
+"webpack-sources@^1.1.0", "webpack-sources@^1.3.0", "webpack-sources@^1.4.0", "webpack-sources@^1.4.1", "webpack-sources@^1.4.3":
   "integrity" "sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ=="
   "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-1.4.3.tgz"
   "version" "1.4.3"
@@ -11862,35 +11469,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^1.9 || ^2 || ^2.1.0-beta || ^2.2.0-rc || ^3.0.0", "webpack@^2.0.0 || ^3.0.0", "webpack@>=2", "webpack@2 || 3 || 4":
-  "integrity" "sha512-5ZXLWWsMqHKFr5y0N3Eo5IIisxeEeRAajNq4mELb/WELOR7srdbQk2N5XiyNy2A/AgvlR3AmeBCZJW8lHrolbw=="
-  "resolved" "https://registry.npmjs.org/webpack/-/webpack-3.8.1.tgz"
-  "version" "3.8.1"
-  dependencies:
-    "acorn" "^5.0.0"
-    "acorn-dynamic-import" "^2.0.0"
-    "ajv" "^5.1.5"
-    "ajv-keywords" "^2.0.0"
-    "async" "^2.1.2"
-    "enhanced-resolve" "^3.4.0"
-    "escope" "^3.6.0"
-    "interpret" "^1.0.0"
-    "json-loader" "^0.5.4"
-    "json5" "^0.5.1"
-    "loader-runner" "^2.3.0"
-    "loader-utils" "^1.1.0"
-    "memory-fs" "~0.4.1"
-    "mkdirp" "~0.5.0"
-    "node-libs-browser" "^2.0.0"
-    "source-map" "^0.5.3"
-    "supports-color" "^4.2.1"
-    "tapable" "^0.2.7"
-    "uglifyjs-webpack-plugin" "^0.4.6"
-    "watchpack" "^1.4.0"
-    "webpack-sources" "^1.0.1"
-    "yargs" "^8.0.2"
-
-"webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@>=4.43.0 <6.0.0", "webpack@4.44.2":
+"webpack@^2.0.0 || ^3.0.0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@^4.44.2", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@2 || 3 || 4", "webpack@4.44.2":
   "integrity" "sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.44.2.tgz"
   "version" "4.44.2"
@@ -11996,20 +11575,10 @@
   dependencies:
     "isexe" "^2.0.0"
 
-"window-size@0.1.0":
-  "integrity" "sha1-VDjNLqk7IC76Ohn+iIeu58lPnJ0="
-  "resolved" "https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz"
-  "version" "0.1.0"
-
 "word-wrap@^1.2.3", "word-wrap@~1.2.3":
   "integrity" "sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ=="
   "resolved" "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
   "version" "1.2.3"
-
-"wordwrap@0.0.2":
-  "integrity" "sha1-t5Zpu0LstAn4PVg8rVLKF+qhZD8="
-  "resolved" "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
-  "version" "0.0.2"
 
 "workbox-background-sync@^5.1.4":
   "integrity" "sha512-AH6x5pYq4vwQvfRDWH+vfOePfPIYQ00nCEB7dJRU1e0n9+9HMRyvI63FlDvtFT2AvXVRsXvUt7DNMEToyJLpSA=="
@@ -12178,14 +11747,6 @@
   dependencies:
     "microevent.ts" "~0.1.1"
 
-"wrap-ansi@^2.0.0":
-  "integrity" "sha1-2Pw9KE3QV5T+hJc8rs3Rz4JP3YU="
-  "resolved" "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "string-width" "^1.0.1"
-    "strip-ansi" "^3.0.1"
-
 "wrap-ansi@^5.1.0":
   "integrity" "sha512-QC1/iN/2/RPVJ5jYK8BGttj5z83LmSKmvbvrXPNCLZSEb32KKVDJDl/MOt2N01qU2H/FkzEa9PKto1BqDjtd7Q=="
   "resolved" "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-5.1.0.tgz"
@@ -12246,20 +11807,10 @@
   "resolved" "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
   "version" "4.0.2"
 
-"y18n@^3.2.1":
-  "integrity" "sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ=="
-  "resolved" "https://registry.npmjs.org/y18n/-/y18n-3.2.2.tgz"
-  "version" "3.2.2"
-
 "y18n@^4.0.0":
   "integrity" "sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ=="
   "resolved" "https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz"
   "version" "4.0.3"
-
-"yallist@^2.1.2":
-  "integrity" "sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI="
-  "resolved" "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz"
-  "version" "2.1.2"
 
 "yallist@^3.0.2":
   "integrity" "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g=="
@@ -12297,13 +11848,6 @@
   "resolved" "https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz"
   "version" "20.2.9"
 
-"yargs-parser@^7.0.0":
-  "integrity" "sha1-jQrELxbqVd69MyyvTEA4s+P139k="
-  "resolved" "https://registry.npmjs.org/yargs-parser/-/yargs-parser-7.0.0.tgz"
-  "version" "7.0.0"
-  dependencies:
-    "camelcase" "^4.1.0"
-
 "yargs@^13.3.2":
   "integrity" "sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw=="
   "resolved" "https://registry.npmjs.org/yargs/-/yargs-13.3.2.tgz"
@@ -12336,35 +11880,6 @@
     "which-module" "^2.0.0"
     "y18n" "^4.0.0"
     "yargs-parser" "^18.1.2"
-
-"yargs@^8.0.2":
-  "integrity" "sha1-YpmpBVsc78lp/355wdkY3Osiw2A="
-  "resolved" "https://registry.npmjs.org/yargs/-/yargs-8.0.2.tgz"
-  "version" "8.0.2"
-  dependencies:
-    "camelcase" "^4.1.0"
-    "cliui" "^3.2.0"
-    "decamelize" "^1.1.1"
-    "get-caller-file" "^1.0.1"
-    "os-locale" "^2.0.0"
-    "read-pkg-up" "^2.0.0"
-    "require-directory" "^2.1.1"
-    "require-main-filename" "^1.0.1"
-    "set-blocking" "^2.0.0"
-    "string-width" "^2.0.0"
-    "which-module" "^2.0.0"
-    "y18n" "^3.2.1"
-    "yargs-parser" "^7.0.0"
-
-"yargs@~3.10.0":
-  "integrity" "sha1-9+572FfdfB0tOMDnTvvWgdFDH9E="
-  "resolved" "https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz"
-  "version" "3.10.0"
-  dependencies:
-    "camelcase" "^1.0.2"
-    "cliui" "^2.1.0"
-    "decamelize" "^1.0.0"
-    "window-size" "0.1.0"
 
 "yocto-queue@^0.1.0":
   "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="

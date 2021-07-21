@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import "./App.css";
-import "./styles/slick.css";
-import "./styles/style.css";
-import "./styles/content.css";
+// import "./App.css";
 
 import Main from "./domain/Main/index";
 import Policy from "./domain/Policy/index";
