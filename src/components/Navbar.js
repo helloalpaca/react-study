@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import imgA from '../images/kakao_login_large_narrow_start.png';
 
 class Navbar extends Component {
-    notyet() {
-        console.log('개발중입니다.');
+    notyet(e) {
+        e.preventDefault();
+        alert('개발중입니다.');
     }
 
     render(){

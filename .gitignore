@@ -23,7 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # notyet
+/public/images
 /src/fonts
 /src/images
 /src/scripts
 /src/styles
+/src/app

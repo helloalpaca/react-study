@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 
-import imgB from '../../images/local_shipping_white_24dp.svg';
-import imgC from '../../images/travel_explore_white_24dp.svg';
-
 class Content extends Component {
 
     notyet(e) {
         e.preventDefault();
-        alert('현황확인 - 개발중입니다.');
+        alert('개발중입니다.');
     }
-    
+
     render(){
       return (
         <div className="vsl-area" id="asap-content-area">
@@ -21,16 +18,16 @@ class Content extends Component {
             </div>
             <div className="cmnbtn-box">
             <div className="grid550">
-                <a href="/send" title="접수하기" className="cmnbtn cmnbtn-blk__full">
-                    <span><img src={imgB} alt="imgB"
+                <a href="/send#!" title={this.props.title1} className="cmnbtn cmnbtn-blk__full" onClick={this.notyet}>
+                    <span><img src={this.props.img1} alt={this.props.img1alt}
                         className="cmnbtn-img"></img></span><br />
-                    <span className="cmnbtn-label">접수하기</span>
+                    <span className="cmnbtn-label">{this.props.title1}</span>
                 </a>
                 <div style={{ marginTop: '1.25rem' }}></div>
-                <a href="#!" title="현황확인" className="cmnbtn cmnbtn-blk__full"onClick={this.notyet}>
-                    <span><img src={imgC} alt="imgC"
+                <a href="/send#!" title={this.props.title2} className="cmnbtn cmnbtn-blk__full" onClick={this.notyet}>
+                    <span><img src={this.props.img2} alt={this.props.img2alt}
                         className="cmnbtn-img"></img></span><br />
-                    <span className="cmnbtn-label">현황확인</span>
+                    <span className="cmnbtn-label">{this.props.title2}</span>
                 </a>
                 <div style={{ marginTop: '1.25rem' }}></div>
             </div>
