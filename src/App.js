@@ -7,6 +7,7 @@ import Main from "./domain/Main/index";
 import Send from "./domain/Send/index";
 import Policy from "./domain/Policy/index";
 import Footer from "./components/Footer";
+import Redux from "./domain/Redux/index";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path="/" component={Main} />
           <Route path="/send" component={Send} />
           <Route path="/policy" component={Policy} />
+          <Route path="/redux" component={Redux} />
           <Footer />
         </Router>
       </div>
