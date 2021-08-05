@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AddNumber from "./AddNumber";
+//import AddNumber from "./AddNumber";
 import DisplayNumber from "./DisplayNumber";
-
+import AddNumber from "../../containers/AddNumber";
 
 class Redux extends Component {
  
