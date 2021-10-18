@@ -2,13 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/fonts.css";
-import "./styles/reset.css";
-import "./styles/layout.css";
-import "./styles/content.css";
-import "./styles/slick.css";
-
 import App from "./App";
 import {Provider} from 'react-redux';
 import store from './app/store';

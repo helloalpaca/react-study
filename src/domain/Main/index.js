@@ -1,24 +1,16 @@
-import React, { Component } from "react";
+import React, {Component} from 'react';
 
-import Navbar from "../../components/Navbar";
-import Content from "./Content";
-
-class Main extends Component {
-  
-  constructor(props){
-    super(props);
-    this.state = {
-      title1: "접수하기", 
-      title2: "현황확인"
-    }
-  }
-
-  render() {
+class Main extends Component{
+  render(){
     return (
-      <div>
-        <Navbar />
-        <Content title1={this.state.title1} title2={this.state.title2}/>
-      </div>
+      <main>
+        <div className="container-fluid px-4">
+          <h1 className="mt-4">Main</h1>
+          <ol className="breadcrumb mb-4">
+            <li className="breadcrumb-item active">Main</li>
+          </ol>
+        </div>
+      </main>
     );
   }
 }
