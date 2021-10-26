@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
-import "./App.css";
+import './App.css';
 
 import $ from 'jquery';
 import '@popperjs/core';
@@ -18,34 +18,40 @@ import Image from './domain/image';
 import Dropdown from './domain/dropdown';
 import ImageUpload from './domain/imageupload';
 import InputNumeric from './domain/inputnumeric';
+import Login from './domain/login';
 
-import Redux from "./domain/Redux/index";
+import Redux from './domain/Redux/index';
+import Context from './domain/context/index';
+import Gossok from './domain/gossok/index';
+import Pagination from './domain/pagination/reactpaginate';
 
-class App extends Component {
-  render() {
-    return (
-        <Router>
-          <div id="main">
-            <Header />
-            <div id="layoutSidenav">
-              <div id="layoutSidenav_nav">
-                <Sidebar />
-              </div>
-              <div id="layoutSidenav_content">
-                <Route exact path="/" component={Main} />
-                <Route exact path="/privacypolicy" component={PrivacyPolicy} />
-                <Route exact path="/image" component={Image} />
-                <Route exact path="/dropdown" component={Dropdown} />
-                <Route exact path="/image-upload" component={ImageUpload} />
-                <Route exact path="/input-numeric" component={InputNumeric} />
-                <Route exact path="/redux" component={Redux} />
-                <Footer />
-              </div>
-            </div>
+function App() {
+  return (
+    <Router>
+      <div id="main">
+        <Header />
+        <div id="layoutSidenav">
+          <div id="layoutSidenav_nav">
+            <Sidebar />
           </div>
-        </Router>
-    );
-  }
+          <div id="layoutSidenav_content">
+            <Route exact path="/" component={Main} />
+            <Route exact path="/privacypolicy" component={PrivacyPolicy} />
+            <Route exact path="/image" component={Image} />
+            <Route exact path="/dropdown" component={Dropdown} />
+            <Route exact path="/image-upload" component={ImageUpload} />
+            <Route exact path="/input-numeric" component={InputNumeric} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/redux" component={Redux} />
+            <Route exact path="/context" component={Context} />
+            <Route exact path="/pagination" component={Pagination} />
+            <Route exact path="/gossok" component={Gossok} />
+            <Footer />
+          </div>
+        </div>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

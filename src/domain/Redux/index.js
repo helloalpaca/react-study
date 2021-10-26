@@ -1,15 +1,14 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 //import AddNumber from "./AddNumber";
-import DisplayNumber from "../../containers/DisplayNumber";
-import AddNumber from "../../containers/AddNumber";
+import DisplayNumber from '../../containers/DisplayNumber';
+import AddNumber from '../../containers/AddNumber';
 
 class Redux extends Component {
- 
   render() {
     return (
       <div>
-          <AddNumber></AddNumber>
-          <DisplayNumber></DisplayNumber>
+        <AddNumber></AddNumber>
+        <DisplayNumber></DisplayNumber>
       </div>
     );
   }

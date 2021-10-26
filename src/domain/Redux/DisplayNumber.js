@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import store from "../../app/store";
+import React, { Component } from 'react';
+import store from '../../app/store';
 
 class DisplayNumber extends Component {
   render() {
     return (
-    <div>
+      <div>
         <h1>Display Number</h1>
-        <input type="text" value={this.props.number} readOnly/>
-    </div>
-    )
+        <input type="text" value={this.props.number} readOnly />
+      </div>
+    );
   }
 }
 

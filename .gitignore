@@ -29,3 +29,5 @@ yarn-error.log*
 /src/scripts
 /src/styles
 /src/app
+
+*_old*

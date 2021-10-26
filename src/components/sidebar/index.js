@@ -1,12 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Sidebar extends Component {
-  render(){
-    return (
-      <nav className="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
-        <div className="sb-sidenav-menu">
-          <div className="nav">
-            { /*
+function Sidebar() {
+  return (
+    <nav className="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+      <div className="sb-sidenav-menu">
+        <div className="nav">
+          {/*
             <div className="sb-sidenav-menu-heading">Core</div>
             <div className="sb-sidenav-menu-heading">Interface</div>
             <a
@@ -131,47 +130,64 @@ class Sidebar extends Component {
               </nav>
             </div>
             */}
-            <div className="sb-sidenav-menu-heading">Functions</div>
-            <a className="nav-link" href="/dropdown">
-              <div className="sb-nav-link-icon">
-                <i className="fas fa-box"></i>
-              </div>
-              DropDown
-            </a>
-            <a className="nav-link" href="/image">
-              <div className="sb-nav-link-icon">
-                <i className="fas fa-box"></i>
-              </div>
-              Image
-            </a>
-            <a className="nav-link" href="/image-upload">
-              <div className="sb-nav-link-icon">
-                <i className="fas fa-chart-area"></i>
-              </div>
-              Image Upload
-            </a>
-            <a className="nav-link" href="/input-numeric">
-              <div className="sb-nav-link-icon">
-                <i className="fas fa-chart-area"></i>
-              </div>
-              Input Numeric
-            </a>
-            {/*
+          <div className="sb-sidenav-menu-heading">Functions</div>
+          <a className="nav-link" href="/dropdown">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-box"></i>
+            </div>
+            DropDown
+          </a>
+          <a className="nav-link" href="/image">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-box"></i>
+            </div>
+            Image
+          </a>
+          <a className="nav-link" href="/image-upload">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-chart-area"></i>
+            </div>
+            Image Upload
+          </a>
+          <a className="nav-link" href="/input-numeric">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-chart-area"></i>
+            </div>
+            Input Numeric
+          </a>
+          <a className="nav-link" href="/login">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-chart-area"></i>
+            </div>
+            Login
+          </a>
+          <a className="nav-link" href="/context">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-chart-area"></i>
+            </div>
+            Context
+          </a>
+          <a className="nav-link" href="/pagination">
+            <div className="sb-nav-link-icon">
+              <i className="fas fa-chart-area"></i>
+            </div>
+            Pagination
+          </a>
+          {/*
             <a className="nav-link" href="tables.html">
               <div className="sb-nav-link-icon">
                 <i className="fas fa-table"></i>
               </div>
               Tables
             </a> */}
-          </div>
         </div>
-        <div className="sb-sidenav-footer">
-          <div className="small">Logged in as:</div>
-          Start Bootstrap
-        </div>
-      </nav>
-    );
-  }
+      </div>
+      <div className="sb-sidenav-footer">
+        <div className="small">Logged in as:</div>
+        Start Bootstrap
+      </div>
+    </nav>
+  );
 }
 
 export default Sidebar;

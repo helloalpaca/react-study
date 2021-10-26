@@ -83,8 +83,9 @@
 }
 
 .fileContainer .uploadPictureContainer {
-  width: 25%;
-  margin: 5%;
+  /*width: 25%;*/
+  width: 300px;
+  /*margin: 5%;*/
   padding: 10px;
   background: #edf2f6;
   display: flex;
