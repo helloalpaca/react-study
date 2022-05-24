@@ -73,9 +73,9 @@ class ReactImageUploadComponent extends React.Component {
       };
       /* Resize Image 211018 */
       //console.log(file);
-      if (file.size > 2000000) {
+      if (file.size > 500000) {
         const options = {
-          maxSizeMB: 2,
+          maxSizeMB: 0.5,
           maxWidthOrHeight: 1920,
           useWebWorker: true,
         };

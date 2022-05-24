@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
 import './App.css';
@@ -26,6 +26,8 @@ import Gossok from './domain/gossok/index';
 import Pagination from './domain/pagination/reactpaginate';
 
 function App() {
+  const [pictures1, setPictures1] = useState([]);
+
   return (
     <Router>
       <div id="main">
@@ -39,7 +41,9 @@ function App() {
             <Route exact path="/privacypolicy" component={PrivacyPolicy} />
             <Route exact path="/image" component={Image} />
             <Route exact path="/dropdown" component={Dropdown} />
-            <Route exact path="/image-upload" component={ImageUpload} />
+            <Route exact path="/image-upload">
+              <ImageUpload pictures1={pictures1} setPictures1={setPictures1} />
+            </Route>
             <Route exact path="/input-numeric" component={InputNumeric} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/redux" component={Redux} />

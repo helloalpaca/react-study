@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 function InputNumeric() {
   const [weight, setWeight] = useState(0);
@@ -23,23 +24,23 @@ function InputNumeric() {
         <div className="col-4 mx-4">
           <input
             className="form-control form-control-lg"
-            type="nunmber"
-            inputMode="numeric"
-            pattern="[0-9]*"
-            placeholder="무게를 입력해주세요"
+            type="text"
+            placeholder="상세 주소"
             aria-label=".form-control-lg example"
             onChange={onChange}
           ></input>
         </div>
         <span className="col align-self-center">kg</span>
       </div>
-      <button
-        type="button"
-        className="btn btn-primary my-4 mx-4"
-        onClick={onClick}
-      >
-        입력하기
-      </button>
+      <CopyToClipboard text={weight}>
+        <button
+          type="button"
+          className="btn btn-primary my-4 mx-4"
+          onClick={onClick}
+        >
+          입력하기
+        </button>
+      </CopyToClipboard>
     </main>
   );
 }

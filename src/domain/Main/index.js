@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Main() {
+  let name = undefined;
+
   return (
     <main>
       <div className="container-fluid px-4">
@@ -9,7 +11,9 @@ function Main() {
           <li className="breadcrumb-item active">Main</li>
         </ol>
       </div>
+      <div>{name || 'UNDEFINED임'}</div>
     </main>
+
   );
 }
 
